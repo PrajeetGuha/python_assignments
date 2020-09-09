@@ -1,8 +1,8 @@
 # python_assignments
  
- Name: Prajeet Guha
- Department: Computer Science and Engineering
- College: St.Thomas' College of Engineering and Technology
- Roll No.: 28
- Year: 2nd Year
+ Name: Prajeet Guha <br/>
+ Department: Computer Science and Engineering <br/>
+ College: St.Thomas' College of Engineering and Technology <br/>
+ Roll No.: 28 <br/>
+ Year: 2nd Year <br/>
  University Roll no.: 12200119022
