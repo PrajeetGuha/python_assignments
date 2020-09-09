@@ -1,4 +1,4 @@
-# Assignment 2
+# Assignment 1
 
 Name: Prajeet Guha <br/>
 Department: Computer Science and Engineering <br/>
