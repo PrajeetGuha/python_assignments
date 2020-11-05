@@ -1,0 +1,31 @@
+
+1. What are the advantages of using slice in string?
+
+Slicing in string helps in creating a substring from a string with ease without changing the parent string.
+
+
+
+2. Can you directly replace a character in string just by assigning? If not,
+state the reason. Also give the solution.
+
+We can't directly replace a character in string just by assigning as strings are immutable objects in python.
+The best solution to replace as character in a string is by proper slicing of the string into two substrings --- one substring which starts from beginning and ends before the character to be replaced and second substring which starts from character after the character to be replaced and till the end of the parent string. Then using string addition to add the first substring, then the new character and then the last substring.
+
+EXAMPLE:
+        CODE:
+
+            >>> s = 'This is at example.'        #replacing t in 'at' with n
+            >>> first_sunstring = s[:9]
+            >>> last_substring = s[10:]
+            >>> edited = first_sunstring + 'n' + last_substring
+            >>> print(edited)
+
+        OUTPUT:
+
+            This is an example.
+
+
+
+3. What is the use of negative indexing?
+
+Negative indexing is used for back reference. Unlike C where array elements are provided with index from 0 from the initial element, python have the same indexing as well as a back indexing where the last element starts with -1. This is primarily used when we don't know the length of the array but we want to refer an element from the last. 
