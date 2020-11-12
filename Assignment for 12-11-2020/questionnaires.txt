@@ -1,0 +1,102 @@
+c. Explain the output of the following snippet if the inputted value is 25:
+
+    x=input(“Enter a number: ”)
+    print(x*3)
+
+
+Output:
+
+    252525
+
+Reason:
+
+    input() takes in value from user as a string. So x = '25'. Since x is a string then x*3 will follow the python rules for string concatenation. Multiplying a string by a number n will concatenate the string to itself n times.
+    So, x*3 = '25'*3 = '25'+'25'+'25' = '252525'
+
+
+
+d. Explain, with an example, how an equivalent of switch case be implemented in Python.
+
+
+Since there is no switch function in python we can use if statement to do switch cases.
+Example :
+
+    A program to do various string operations.
+
+    Program:
+
+        s = input('Enter the sentence:')
+
+        while (1):
+            c = input('Option:\n1.Lowercase\n2.Uppercase\n3.Split the string.\n4.Exit.\nEnter option:')
+
+            if c == '1':
+
+                print(s.lower())
+
+            elif c == '2':
+
+                print(s.upper())
+
+            elif c == '3':
+
+                print(s.split())
+
+            elif c == '4':
+
+                print('Thank You')
+                break
+
+            else:
+
+                print('Wrong input.Try again.')
+
+
+    Output:
+
+        Enter the sentence:  I really HATE to do this assignment in such time constraint.
+
+        Option:
+        1.Lowercase
+        2.Uppercase
+        3.Split the string.
+        4.Exit.
+        Enter option:  1
+
+        i really hate to do this assignment in such time constraint.
+
+        Option:
+        1.Lowercase
+        2.Uppercase
+        3.Split the string.
+        4.Exit.
+        Enter option:  2
+
+        I REALLY HATE TO DO THIS ASSIGNMENT IN SUCH TIME CONSTRAINT.
+
+        Option:
+        1.Lowercase
+        2.Uppercase
+        3.Split the string.
+        4.Exit.
+        Enter option:  3
+
+        ['I', 'really', 'HATE', 'to', 'do', 'this', 'assignment', 'in', 'such', 'time', 'constraint.']
+
+        Option:
+        1.Lowercase
+        2.Uppercase
+        3.Split the string.
+        4.Exit.
+        Enter option:  5
+
+        Wrong input.Try again.
+
+        Option:
+        1.Lowercase
+        2.Uppercase
+        3.Split the string.
+        4.Exit.
+        Enter option:  4
+
+        Thank You
