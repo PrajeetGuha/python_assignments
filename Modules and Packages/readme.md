@@ -1,4 +1,4 @@
-# Assignment on Tuples
+# Assignment on Modules and Packages
 
 Name: Prajeet Guha <br/>
 Department: Computer Science and Engineering <br/>
