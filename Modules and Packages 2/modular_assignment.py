@@ -15,7 +15,7 @@ def function2(n,r):
 def function3(n):
     
     if ( n > 1 ):
-        return function3(n/2)
+        return function3(n/2) + 1
         
     else:
         return 1
