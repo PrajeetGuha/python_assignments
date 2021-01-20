@@ -1,0 +1,10 @@
+Hello this is the third test file that contains some information
+Welcome to St Thomas College of Engineering and Technology
+I am a student of CSE
+2nd Year
+In this corona the classes are suspendedpYtHOn tOO SUpportS fiLe handLinG And AlLOws uSerS to hANDle FiLES I.E., to REaD and WRITE fIles, along wiTH maNY oThEr fiLE haNdLiNG oPTioNs, tO opEratE On FIlEs.
+the CoNcEpt of File HandLiNg HAS stREtCheD ovEr VArious OThEr laNguaGES, but tHe iMPLeMEnTaTioN IS EIThER cOmPlicAtEd OR LENgTHy, BUt aLiKE OTHER CONCePTS of pYTHoN, tHiS concEpt HERE Is aLSO EaSy AnD ShOrT.
+PYtHoN trEATS FILE DIffEreNtLy aS TExT oR BINArY and THIs IS IMPOrtant.
+eaCH lIne Of codE iNCLUDes A sEqUEncE of CharActeRS aNd tHeY FoRM TexT FILe.
+EAch LiNe oF a FILE IS TeRmInATed witH a speciAl charactEr, cAlLEd The eOl or enD Of linE CHaRaCterS LIke CoMMa {,} oR NeWLine CHaRActER.
+It Ends the CuRRenT line AnD TElLs the INtErPReTEr A nEw One hAs bEGuN. let’s stART WitH rEaDinG aND WrItinG fIleS.

@@ -1,0 +1,6 @@
+PyThoN Too suPPORTs FIlE HANDlINg aND aLloWS UsERs TO HandLE fIles i.e., TO reAd AND write FiLES, ALONG WIth MAny OtHeR FIle HAnDlIng OptIOnS, To OPeRATe oN fiLeS.
+THE cOnCePT OF fILE hANDlInG has STreTcHEd OVeR vaRIOUS otHeR LAnGUAges, BUT ThE ImplEmeNtAtIOn is eitHer CoMpLICaTeD or lenGthY, buT AlIke other concEpts OF PythOn, ThIs CONCePT here iS Also eAsY aNd sHoRt.
+pyThOn TReats file diFFeREnTlY As teXt Or binaRy AND thiS is impoRTANT.
+EAch LiNE oF CODe IncludES a SeQueNCe OF cHARaCTErs AnD ThEy fOrm tEXt filE.
+eaCH lInE Of A file is tErMiNatED WITh A SPECIaL CHARACTeR, CaLleD tHE EoL OR ENd oF LINe chArAcTERs liKE cOmmA {,} Or nEwlINE chAraCTer.
+iT eNDS THE cUrrENt LINE aNd teLlS THE inTeRprEteR a NeW oNE HaS BegUn. LETÂ€™S STart wITh ReAdINg And wRiTINg FiLEs.
